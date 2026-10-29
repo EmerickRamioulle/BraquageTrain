@@ -25,17 +25,17 @@ class Program
          */
         int wagon = 0;
         
-        for (int i = 0; i <= 4; i++)
+        for (int i = 1; i <= 4; i++)
         {
             wagon++;
             int coffre = 0;
             
-            for (int i = 0; i <= 3; i++)
+            for (int j = 1; j <= 3; j++)
             {
                 coffre++;
-                Console.WriteLine("Wagon" + wagon + " - coffre" + coffre + " inspecté ! ";
+                Console.WriteLine("Wagon" + wagon + " - coffre" + coffre + " inspecté ! ");
             }
         }
-        Console.WriteLine("Inspection terminée !";
+        Console.WriteLine("Inspection terminée !");
     }
 }
